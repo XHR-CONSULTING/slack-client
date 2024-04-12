@@ -12,6 +12,12 @@
             "email": "james@firefly-iii.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Divi/codeswholesale-sdk-php"
+        }
+    ],
     "require": {
         "php": ">8.0",
         "XHR-CONSULTING/phpws": "dev-main",
