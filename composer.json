@@ -1,0 +1,38 @@
+{
+    "name": "XHR-CONSULTING/slack-client",
+    "keywords": ["slack", "api", "realtime"],
+    "license": "MIT",
+    "description": "A better Slack client, with RTM API support and updated packages",
+    "authors": [{
+        "name": "Stephen Coakley",
+        "email": "me@stephencoakley.com"
+    },
+        {
+            "name": "James Cole",
+            "email": "james@firefly-iii.org"
+        }
+    ],
+    "require": {
+        "php": ">8.0",
+        "XHR-CONSULTING/phpws": "dev-main",
+        "evenement/evenement": "~3.0",
+        "guzzlehttp/guzzle": "~7.0",
+        "react/event-loop": "^1.0",
+        "react/promise": "~2",
+        "react/promise-timer": "~1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9",
+        "fakerphp/faker": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slack\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slack\\Tests\\": "tests"
+        }
+    }
+}
