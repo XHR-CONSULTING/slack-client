@@ -1,5 +1,5 @@
 {
-    "name": "XHR-CONSULTING/slack-client",
+    "name": "xhr-consulting/slack-client",
     "keywords": ["slack", "api", "realtime"],
     "license": "MIT",
     "description": "A better Slack client, with RTM API support and updated packages",
