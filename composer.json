@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">8.0",
-        "XHR-CONSULTING/phpws": "dev-main",
+        "xhr-consulting/phpws": "^1.0",
         "evenement/evenement": "~3.0",
         "guzzlehttp/guzzle": "~7.0",
         "react/event-loop": "^1.0",
