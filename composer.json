@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Divi/codeswholesale-sdk-php"
+            "url": "https://github.com/XHR-CONSULTING/phpws"
         }
     ],
     "require": {
